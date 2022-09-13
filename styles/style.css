@@ -1,0 +1,13 @@
+:root {
+    --primary-color: linear-gradient(0deg, rgba(78,239,255,1) 0%, rgba(255,255,255,1) 100%);
+    --secondary-color: white;
+    --text-color: black;
+}
+
+nav {
+    background: var(--primary-color);
+}
+
+ul {
+    list-style: none;
+}
