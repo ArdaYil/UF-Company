@@ -1,0 +1,21 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary-color: linear-gradient(0deg, rgba(78,239,255,1) -17%, rgba(255,255,255,1) 120%);
+    --secondary-color: white;
+    --text-color: black;
+
+    --ff-primary: "Montserrat", sans-serif;
+    
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+}
+
+.fw-400 { font-weight: var(--fw-400) }
+.fw-500 { font-weight: var(--fw-500) }
+.fw-600 { font-weight: var(--fw-600) }
+.fw-700 { font-weight: var(--fw-700) }
