@@ -8,7 +8,7 @@
 }
 
 main h1 {
-    width: 25%;
+    width: 30%;
 }
 
 .top-container img {
@@ -22,10 +22,11 @@ main h1 {
 
 main {
     margin-top: 3rem;
+    padding: 3rem;
 }
 
 .mid-container {
-
+    display: flex;
 }
 
 footer {
