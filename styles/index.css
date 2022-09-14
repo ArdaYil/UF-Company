@@ -1,0 +1,33 @@
+
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+main h1 {
+    width: 25%;
+}
+
+.top-container img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.card {
+    max-width: 500px;
+}
+
+main {
+    margin-top: 3rem;
+}
+
+.mid-container {
+
+}
+
+footer {
+    background-color: var(--clr-footer);
+}

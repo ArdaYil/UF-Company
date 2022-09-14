@@ -6,6 +6,7 @@
     --primary-color: linear-gradient(0deg, rgba(78,239,255,1) -17%, rgba(255,255,255,1) 120%);
     --secondary-color: white;
     --text-color: black;
+    --clr-footer: #25316D;
 
     --ff-primary: "Montserrat", sans-serif;
     
@@ -13,9 +14,22 @@
     --fw-500: 500;
     --fw-600: 600;
     --fw-700: 700;
+
+    --fs-900: 3rem;
 }
 
 .fw-400 { font-weight: var(--fw-400) }
 .fw-500 { font-weight: var(--fw-500) }
 .fw-600 { font-weight: var(--fw-600) }
 .fw-700 { font-weight: var(--fw-700) }
+
+.fs-900 { font-size: var(--fs-900) }
+
+.card {
+    border-radius: 10px;
+    box-shadow: 10px 10px 100px black;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.primary-color { background: var(--primary-color)}
