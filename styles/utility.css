@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 :root {
-    --primary-color: linear-gradient(0deg, rgba(78,239,255,1) -17%, rgba(255,255,255,1) 120%);
+    --primary-color: rgba(78,239,255,1);
     --secondary-color: white;
     --text-color: black;
     --clr-footer: #25316D;
