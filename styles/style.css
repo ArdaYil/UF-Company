@@ -8,13 +8,19 @@ body {
 
 nav {
     background: var(--primary-color);
-    margin: 0;
-    padding: 50px;
+    margin: auto;
     padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 10%;
+    max-width: 7rem;
+    padding: 0;
 }
 
 nav .container {
-    margin: auto;
     max-width: 1500px;
 }
 
@@ -22,7 +28,6 @@ nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
-    float: right;
 }
 
 nav ul li {
