@@ -12,10 +12,22 @@ nav {
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
+    flex-grow: 4;
+}
+
+nav .left-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 3rem;
 }
 
 nav img {
     width: 10%;
+    height: 10%;
+    max-height: 7rem;
     max-width: 7rem;
     padding: 0;
 }
@@ -48,4 +60,10 @@ nav ul li a:hover {
 main {
     margin: auto;
     max-width: 1600px;
+    background-color: grey;
+}
+
+footer {
+    background-color: var(--clr-footer);
+    display: flex,
 }

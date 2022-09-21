@@ -14,7 +14,7 @@ main h1 {
 .top-container img {
     width: 35rem;
     height: 35rem;
-    position: absolute;
+    /* position: absolute; */
     right: 1rem;
 }
 
@@ -31,10 +31,6 @@ section {
 main {
     margin-top: 3rem;
     padding: 3rem;
-}
-
-footer {
-    background-color: var(--clr-footer);
 }
 
 .card-btn {
