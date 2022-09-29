@@ -26,6 +26,7 @@ section {
     width: 100%;
     margin-bottom: 3.5rem;
     padding: 1rem;
+    transition: padding 0.3s linear;
 }
 
 main {
@@ -39,19 +40,35 @@ main {
     padding: 1.2rem 1rem;
     border-radius: 1.2rem;
     text-align: center;
-    display: none;
-    color: var(--primary-color)
+    float: left;
+    visibility: collapse;
+    color: var(--primary-color);
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
 .card:hover .card-btn {
-    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+.card:hover {
+    padding-bottom: 5rem;
 }
 
 .first-section {
-    margin-top: 20rem;
+    
+}
+
+article {
+    display: flex;
+    align-items: flex-start;
 }
 
 .right {
-    display: flex;
     justify-content: end;
+}
+
+.left {
+    justify-content: start;
 }
