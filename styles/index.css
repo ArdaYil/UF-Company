@@ -4,18 +4,10 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
-    margin-bottom: 5rem;
 }
 
 main h1 {
     width: 30%;
-}
-
-.top-container img {
-    width: 35rem;
-    height: 35rem;
-    /* position: absolute; */
-    right: 1rem;
 }
 
 section {
@@ -26,11 +18,10 @@ section {
     width: 100%;
     margin-bottom: 3.5rem;
     padding: 1rem;
-    transition: padding 0.3s linear;
+    transition: padding 0.3s ease-out;
 }
 
 main {
-    margin-top: 3rem;
     padding: 3rem;
 }
 
@@ -44,7 +35,7 @@ main {
     visibility: collapse;
     color: var(--primary-color);
     opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.5s ease-in;
 }
 
 .card:hover .card-btn {
