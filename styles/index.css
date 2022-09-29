@@ -40,6 +40,7 @@ main {
     border-radius: 1.2rem;
     text-align: center;
     display: none;
+    color: var(--primary-color)
 }
 
 .card:hover .card-btn {
@@ -50,5 +51,7 @@ main {
     margin-top: 20rem;
 }
 
-.left { float: left; }
-.right { float: right; }
+.right {
+    display: flex;
+    justify-content: end;
+}
