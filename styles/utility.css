@@ -6,7 +6,7 @@
     --primary-color: #2d1628;
     --secondary-color: #bd955c;
     --text-color: var(--secondary-color);
-    --clr-footer: #25316D;
+    --clr-footer: var(--primary-color);
 
     --ff-primary: "Montserrat", sans-serif;
     
