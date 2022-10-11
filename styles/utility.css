@@ -35,7 +35,7 @@
     --fs-800: 2.1875rem;
     --fs-900: 2.5rem;
 
-    --body-padding: 2rem;
+    --body-padding: 3.5rem;
 }
 
 * {
@@ -43,6 +43,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html, body { height: 100%; width: 100%; margin: 0; }
+div {height: 100%}
 
 .ff-logo { font-family: var(--ff-logo)}
 
