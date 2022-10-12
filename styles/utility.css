@@ -10,9 +10,10 @@
 
     --clr-primary: var(--clr-purple);
     --clr-secondary: var(--clr-gold);
+    --text-gold: var(--clr-gold);
     --text-light: var(--clr-white-600);
     --text-dark: var(--clr-black);
-    --clr-text-primary: var(--text-light);
+    --clr-text-primary: var(--text-gold);
     --clr-text-secondary: var(--text-dark);
     --clr-body: var(--clr-white-400);
 
@@ -47,7 +48,7 @@
 html, body { height: 100%; width: 100%; margin: 0; }
 div {height: 100%}
 
-.ff-logo { font-family: var(--ff-logo)}
+.ff-logo { font-family: var(--ff-logo);}
 
 .fw-400 { font-weight: var(--fw-400);}
 .fw-500 { font-weight: var(--fw-500);}
