@@ -150,6 +150,7 @@ main aside {
 
 
 .offer {
+    flex-grow: 1;
     width: 47%;
     padding: 2rem;
     margin: 0;
